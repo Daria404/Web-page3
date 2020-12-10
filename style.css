@@ -36,21 +36,20 @@ a:hover, .active {
 
 main {
     width: 1100px;
-    margin: 30px 100px;
-    margin-left: auto;
-    margin-right: auto;
-    /* padding: 20px; */
+    margin: 30px auto;
     background: white;
 }
 section {
-    width: 660px;
-    margin: 0px auto;
+    width: 600px;
+    margin: 0px auto; 
+    padding: 20px 0px; 
     text-align: justify;
 }
 
 .LeftBlocks, .RightBlocks {
     height: 100%;
-    width: 200px;
+    width: 250px;
+    
     
 }
 
@@ -64,16 +63,16 @@ aside > img {
 
 .LeftBlocks {
     float: left;
-    margin-right: 20px;
 }
 
 .RightBlocks {
     float: right;
-    margin-left: 20px;
 }
 
 #left, #right {
-    width: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 210px;
     text-align: justify;
 }
 
