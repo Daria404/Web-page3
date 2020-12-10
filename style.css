@@ -2,27 +2,22 @@ body, .wrapper  {
     margin: 0px;
 }
 
-.wrapper {
-    width: 100%;
+body {
     background: #a3b9ed;
 }
 
-main {
-    margin: 30px 100px;
-    padding: 20px;
-    background: white;
+header, footer {
+    min-width: 1100px;
 }
-
 header {
     height: 50px;
     background: black;
-    position: relative;
-
 }
-header #menu {
-    width: 630px;
-    position: absolute;
-    left: 100px;
+header #menu, #footerbar {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 nav {
     display: flex;
@@ -39,6 +34,14 @@ a:hover, .active {
     background: rgb(75, 75, 75);
 }
 
+main {
+    width: 1100px;
+    margin: 30px 100px;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding: 20px; */
+    background: white;
+}
 section {
     width: 660px;
     margin: 0px auto;
@@ -85,7 +88,8 @@ footer {
 }
 
 #footerbar  {
-    margin: 30px 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     height: 200px;
     display: flex;
     flex-direction: row;
