@@ -1,0 +1,119 @@
+body, .wrapper  {
+    margin: 0px;
+}
+
+.wrapper {
+    width: 100%;
+    background: #a3b9ed;
+}
+
+main {
+    margin: 30px 100px;
+    padding: 20px;
+    background: white;
+}
+
+header {
+    height: 50px;
+    background: black;
+    position: relative;
+
+}
+header #menu {
+    width: 630px;
+    position: absolute;
+    left: 100px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+}
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 50px;
+    padding: 0px 20px;
+}
+a:hover, .active {
+    background: rgb(75, 75, 75);
+}
+
+section {
+    width: 660px;
+    margin: 0px auto;
+    text-align: justify;
+}
+
+.LeftBlocks, .RightBlocks {
+    height: 100%;
+    width: 200px;
+    
+}
+
+aside > p , .footerCard, .adress {
+    font-size: 13px;
+}
+
+aside > img {
+    margin-bottom: 10px;
+}
+
+.LeftBlocks {
+    float: left;
+    margin-right: 20px;
+}
+
+.RightBlocks {
+    float: right;
+    margin-left: 20px;
+}
+
+#left, #right {
+    width: 200px;
+    text-align: justify;
+}
+
+h1, h2, h3, h4 {
+    margin: 0px;
+}
+
+footer {
+    height: 280px;
+    border: 1px solid black;
+    background: rgb(11, 10, 14);
+}
+
+#footerbar  {
+    margin: 30px 100px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+
+}
+
+.footerCard {
+    width: 250px;
+    text-align: center;
+    background:  #a3b9ed;
+    padding: 10px;
+}
+.footerCard > p {
+    margin: 5px;
+}
+
+.footerLine {
+    width: 240px;
+    height: 2px;
+    margin: auto;
+    background:rgb(11, 10, 14);
+}
+.adress {
+    color: white;
+    text-align: center;
+}
+
+.clearfix {
+    clear: both;
+}
